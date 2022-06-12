@@ -1,13 +1,19 @@
-title: Pan Kessel
-title_html: "<b>ga</b>briel<b><span class=\"invisible\"> </span>pankessel</b>"
-description:
-  en: Pan Kessel is a Machine Learning Researcher at TU Berlin and BIFOLD.
-  
-# Author
-author: Pan Kessel
+remote_theme: gaalcaras/academic
 
+baseurl: ""
+author: Pan Kessel
+title: Pan Kessel
+title_html: "<b>P</b>an<b><span class=\"invisible\"> </span>kessel</b>"
+langs: ["en"]
+defaults:
+    - scope:
+        path: ""
+      values:
+        lang: "en"
 email: pan.kessel@gmail.com
-twitter_username: daspantom
 github_username: pankessel
 
-remote_theme: gaalcaras/academic
+nav_ext_links:
+    - name: Google Scholar
+      url:
+          en: https://scholar.google.com/citations?user=uODjwl8AAAAJ&hl=en
